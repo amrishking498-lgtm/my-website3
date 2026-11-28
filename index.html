@@ -1,110 +1,401 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="श्री राधा गोविंद कुटी, वृंदावन धाम - एक धार्मिक स्थान। वर्तमान महंत आचार्य श्री दामोदर दास जी।">
-
-    <title>श्री RADHAGOVIND KUTTI | VRINDAVAN</title>
-
-    <!-- External CSS file -->
-    <link rel="stylesheet" href="project.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="श्री राधा गोविंद कुटी, वृंदावन धाम। वर्तमान महंत आचार्य श्री दामोदर दास जी।">
+  <meta name="theme-color" content="#65172b">
+  <title>श्री राधा गोविंद कुटी | वृंदावन धाम</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="project.css">
 </head>
-
 <body>
-
-    <!-- ANIMATION: Original Radhe Radhe text kept -->
-    <div class="f">
-        ࿐༆༒राधे राधे༆༆࿐
+  <div class="top-ribbon">॥ श्री राधे ॥ &nbsp; श्री वृन्दावन धाम &nbsp; ॥ राधे राधे ॥</div>
+<div class="original-radhe-lines"><span>࿐༆༒राधे राधे༆༆࿐</span><span>• 💗𝓡𝓪𝓭𝓱𝓮 𝓴𝓻𝓲𝓼𝓱𝓷𝓪 🦚 &nbsp; • ◥꧁ℛ𝒶𝒹𝒽ℯ 𝒦𝓇𝒾𝓈𝒽𝓃𝒶꧂◤</span></div>
+  <header class="site-header">
+    <div class="peacock">❋</div>
+    <p class="eyebrow">॥ श्री गुरुभ्यो नमः ॥</p>
+    <h1>श्री गुरुदेव एवं श्री राधा-कृष्ण वंदना</h1>
+    <p class="header-subtitle">श्री चरणों में कोटि-कोटि प्रणाम</p>
+    <div class="ornament">❧ ✦ ❧</div>
+    <div class="opening-wrap">
+        <article class="shloka-card opening-card" id="opening-vandana">
+            <div class="shloka-number">मंगल वंदना</div>
+            <p class="shloka-text">वन्दे श्रीगुरुदेवं च राधाकृष्णौ कृपामयौ। यत्कृपया प्रसादेन भक्तिमार्गः प्रकाशते॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> मैं श्रीगुरुदेव और कृपा करने वाले श्री राधा-कृष्ण को प्रणाम करता हूँ। उनकी कृपा से भक्ति का मार्ग प्रकाशित होता है।</p>
+            <p class="shloka-note">श्री गुरुदेव तथा श्री राधा-कृष्ण की संयुक्त वंदना।</p>
+            <button type="button" class="audio-button speak-one" data-index="0">▶ श्लोक सुनें</button>
+        </article></div>
+    <div class="audio-controls">
+      <button type="button" class="audio-button" id="startVandana">♫ वंदना एवं मधुर संगीत सुनें</button>
+      <button type="button" class="audio-button audio-stop" id="stopVandana">■ ऑडियो रोकें</button>
     </div>
-
-    <div class="f">
-        • 💗𝓡𝓪𝓭𝓱𝓮 𝓴𝓻𝓲𝓼𝓱𝓷𝓪 🦚
-        • ◥꧁ℛ𝒶𝒹𝒽ℯ 𝒦𝓇𝒾𝓈𝒽𝓃𝒶꧂◤
-    </div>
-
-    <br><br><br><br><br><br><br><br>
-
-    <h1 class="about-link-heading">
-        <a href="https://share.google/gsWSPZEVVStmoBaEs" target="_blank" rel="noopener noreferrer">
-            राधा गोविंद कुटी के बारे में जानें
-        </a>
-    </h1>
-
-    <!-- HOME: Original image 1.jpeg kept -->
-    <section id="home" class="hero">
-
-        <img src="1.jpeg" alt="श्री राधा कृष्ण">
-
-        <div class="hero-content">
-            <h2>राधे राधे!</h2>
-            <h1>श्री राधा गोविंद कुटी</h1>
-            <p>परम पावन श्री वृंदावन धाम में आपका हार्दिक स्वागत है।</p>
-        </div>
-
-    </section>
-
-    <!-- ABOUT: Original Mahant details and photo 10.jpeg kept -->
-    <section id="about" class="section">
-
+    <p class="audio-note" aria-live="polite">श्लोक सुनने के लिए बटन दबाएँ। यदि आवाज़ न आए तो Chrome में हिंदी Speech Services चालू करें।</p>
+  </header>
+  <main>
+    <section class="hero temple-hero" id="home">
+      <div class="hero-image-frame">
+        <img src="1.jpeg" alt="श्री राधा-कृष्ण की मूल तस्वीर" class="temple-main-image">
+        <span class="image-caption">श्री राधा-कृष्ण</span>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">परम पावन श्री वृन्दावन धाम</p>
         <h2>श्री राधा गोविंद कुटी</h2>
-
-        <p>
-            राधा गोविंद कुटी एक धार्मिक स्थान है।
-            इसके वर्तमान महंत आचार्य श्री दामोदर दास जी हैं।
-        </p>
-
-        <img src="10.jpeg" alt="आचार्य श्री दामोदर दास जी">
-
+        <p class="welcome-line">राधे राधे!</p>
+        <p>परम पावन श्री वृंदावन धाम में आपका हार्दिक स्वागत है।</p>
+        <a class="gold-button" href="https://share.google/gsWSPZEVVStmoBaEs" target="_blank" rel="noopener noreferrer">कुटी के बारे में और जानें ↗</a>
+      </div>
     </section>
-
-    <!-- SOCIAL MEDIA: Original links kept -->
-    <section id="social" class="section">
-
-        <h2>हमारे सोशल मीडिया से जुड़ें</h2>
-
-        <div class="social-links">
-            <a href="https://www.instagram.com/acharyashri_damodardas?dmpr=aThxZG96OHRrYzBi" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://share.google/qGx9JQGhDoerNnnrG" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://www.instagram.com/acharyashri_damodardas?dmpr=aThxZG96OHRrYzBi" target="_blank" rel="noopener noreferrer">YouTube</a>
+    <section id="about" class="section about-section">
+      <div class="section-heading">
+        <span>✧ हमारी पहचान ✧</span>
+        <h2>श्री राधा गोविंद कुटी का परिचय</h2>
+        <div class="heading-line"></div>
+      </div>
+      <p class="about-copy">राधा गोविंद कुटी एक धार्मिक स्थान है। इसके वर्तमान महंत आचार्य श्री दामोदर दास जी हैं।</p>
+      <div class="mahant-panel">
+        <div class="mahant-photo-wrap"><img src="10.jpeg" alt="आचार्य श्री दामोदर दास जी" class="mahant-photo"></div>
+        <div class="mahant-info">
+          <p class="eyebrow">वर्तमान महंत</p>
+          <h3>आचार्य श्री दामोदर दास जी</h3>
+          <p>श्री राधा गोविंद कुटी, वृंदावन धाम</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/acharyashri_damodardas?dmpr=aThxZG96OHRrYzBi" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+            <a href="https://share.google/qGx9JQGhDoerNnnrG" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+            <a href="https://www.instagram.com/acharyashri_damodardas?dmpr=aThxZG96OHRrYzBi" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+          </div>
         </div>
-
+      </div>
     </section>
-
-    <!-- CONTACT SECTION: Original address and phone numbers kept -->
-    <section id="contact" class="section">
-
-        <h2>Contact Us</h2>
-
-        <p>
-            Shri Radha Govind Kuti,
-            Parikrama Marg, Panigaon Link,
-            Vrindavan, Mathura, Uttar Pradesh.
-        </p>
-
-        <div class="contact-box">
-
-            <h3>Contact Details</h3>
-
-            <p>Mobile: 9955655362</p>
-            <a href="tel:9955655362">Call Now</a>
-
-            <p>Mobile: 8077532966</p>
-            <a href="tel:8077532966">Call Now</a>
-
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <span>✧ संपर्क सूत्र ✧</span><h2>हमसे संपर्क करें</h2><div class="heading-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="contact-icon">⌖</span><h3>पता</h3>
+          <p>Shri Radha Govind Kuti,<br>Parikrama Marg, Panigaon Link,<br>Vrindavan, Mathura, Uttar Pradesh.</p>
         </div>
-
-        <br>
-
-        <a href="https://maps.app.goo.gl/vnLZiDhCDY3yuNPE6"
-           target="_blank" rel="noopener noreferrer" class="btn">
-           View on Google Maps
-        </a>
-
+        <div class="contact-card">
+          <span class="contact-icon">☎</span><h3>संपर्क नंबर</h3>
+          <p>9955655362</p><a href="tel:9955655362" class="small-button">कॉल करें</a>
+          <p>8077532966</p><a href="tel:8077532966" class="small-button">कॉल करें</a>
+        </div>
+      </div>
     </section>
+    <section id="shlokas" class="section shlokas-section">
+      <div class="section-heading">
+        <span>✧ श्रीमद्भागवत एवं भक्तिवंदना ✧</span>
+        <h2>श्री राधा-कृष्ण के पावन श्लोक</h2>
+        <p>श्लोक, सरल भावार्थ और श्रवण</p><div class="heading-line"></div>
+      </div>
+      <div class="shloka-list">
+        <article class="shloka-card " id="shloka-2">
+            <div class="shloka-number">श्लोक 2</div>
+            <p class="shloka-text">गुरुर्ब्रह्मा गुरुर्विष्णुः गुरुर्देवो महेश्वरः। गुरुर्साक्षात् परब्रह्म तस्मै श्रीगुरवे नमः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> गुरु ब्रह्मा, विष्णु और महेश्वर के समान पूजनीय हैं। वे परम सत्य का ज्ञान कराने वाले हैं; ऐसे श्रीगुरु को प्रणाम है।</p>
+            <p class="shloka-note">गुरु-महिमा की प्रचलित वंदना।</p>
+            <button type="button" class="audio-button speak-one" data-index="1">▶ श्लोक सुनें</button>
+        </article>
 
-    <!-- Original JavaScript file link kept -->
-    <script src="project.js"></script>
+        <article class="shloka-card " id="shloka-3">
+            <div class="shloka-number">श्लोक 3</div>
+            <p class="shloka-text">अखण्डमण्डलाकारं व्याप्तं येन चराचरम्। तत्पदं दर्शितं येन तस्मै श्रीगुरवे नमः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> जिन गुरु ने इस चर-अचर संसार में व्याप्त परम तत्व का परिचय कराया, उन श्रीगुरु को प्रणाम है।</p>
+            <p class="shloka-note">गुरु द्वारा परम तत्व का बोध।</p>
+            <button type="button" class="audio-button speak-one" data-index="2">▶ श्लोक सुनें</button>
+        </article>
 
+        <article class="shloka-card " id="shloka-4">
+            <div class="shloka-number">श्लोक 4</div>
+            <p class="shloka-text">त्वमेव माता च पिता त्वमेव त्वमेव बन्धुश्च सखा त्वमेव। त्वमेव विद्या द्रविणं त्वमेव त्वमेव सर्वं मम देवदेव॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> हे प्रभु! आप ही मेरी माता, पिता, मित्र, संबंधी, विद्या और धन हैं। मेरे लिए आप ही सब कुछ हैं।</p>
+            <p class="shloka-note">भगवान को अपना सर्वस्व मानकर समर्पण।</p>
+            <button type="button" class="audio-button speak-one" data-index="3">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-5">
+            <div class="shloka-number">श्लोक 5</div>
+            <p class="shloka-text">कृष्णाय वासुदेवाय हरये परमात्मने। प्रणतः क्लेशनाशाय गोविन्दाय नमो नमः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> वासुदेव-पुत्र, परमात्मा और गोविंद श्रीकृष्ण को बार-बार प्रणाम है, जो भक्तों के कष्ट दूर करते हैं।</p>
+            <p class="shloka-note">श्रीकृष्ण को प्रणाम और शरणागति।</p>
+            <button type="button" class="audio-button speak-one" data-index="4">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-6">
+            <div class="shloka-number">श्लोक 6</div>
+            <p class="shloka-text">हे कृष्ण करुणासिन्धो दीनबन्धो जगत्पते। गोपेश गोपिकाकान्त राधाकान्त नमोऽस्तुते॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> हे करुणा के सागर, दीनों के बंधु, जगत के स्वामी, गोपियों के प्रिय और राधाकांत श्रीकृष्ण! आपको प्रणाम है।</p>
+            <p class="shloka-note">श्रीकृष्ण के करुणामय स्वरूप की स्तुति।</p>
+            <button type="button" class="audio-button speak-one" data-index="5">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-7">
+            <div class="shloka-number">श्लोक 7</div>
+            <p class="shloka-text">नमो राधायै कृष्णाय नमो वृन्दावनाय च। नमो यमुनतीराय नमो गोवर्धनाय च॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> श्रीराधा, श्रीकृष्ण, वृंदावन, यमुना तट और श्रीगोवर्धन को प्रणाम है।</p>
+            <p class="shloka-note">व्रजधाम और श्रीराधा-कृष्ण को वंदन।</p>
+            <button type="button" class="audio-button speak-one" data-index="6">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-8">
+            <div class="shloka-number">श्लोक 8</div>
+            <p class="shloka-text">नन्दगोपकुमाराय गोविन्दाय नमो नमः। व्रजजनप्रियाय श्रीकृष्णाय नमो नमः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> नंदगोप के प्रिय पुत्र, गोविंद और व्रजवासियों के प्रिय श्रीकृष्ण को बार-बार प्रणाम है।</p>
+            <p class="shloka-note">व्रज के प्रिय श्रीकृष्ण का स्मरण।</p>
+            <button type="button" class="audio-button speak-one" data-index="7">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-9">
+            <div class="shloka-number">श्लोक 9</div>
+            <p class="shloka-text">जयति तेऽधिकं जन्मना व्रजः श्रयत इन्दिरा शश्वदत्र हि। दयित दृश्यतां दिक्षु तावकास्त्वयि धृतासवस्त्वां विचिन्वते॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> हे प्रियतम! आपके प्रकट होने से व्रज की महिमा बढ़ गई है। आपके दर्शन की आशा में भक्त दिशाओं में आपको खोज रहे हैं।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.31.1 — गोपीगीत।</p>
+            <button type="button" class="audio-button speak-one" data-index="8">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-10">
+            <div class="shloka-number">श्लोक 10</div>
+            <p class="shloka-text">स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे। अहैतुक्यप्रतिहता ययात्मा सुप्रसीदति॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> मनुष्य का सर्वोत्तम धर्म वह है जिससे भगवान के प्रति निष्काम और निरंतर भक्ति उत्पन्न हो; ऐसी भक्ति से आत्मा पूर्ण प्रसन्न होती है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 1.2.6 — परम धर्म का लक्षण।</p>
+            <button type="button" class="audio-button speak-one" data-index="9">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-11">
+            <div class="shloka-number">श्लोक 11</div>
+            <p class="shloka-text">शृण्वतां स्वकथाः कृष्णः पुण्यश्रवणकीर्तनः। हृद्यन्तःस्थो ह्यभद्राणि विधुनोति सुहृत्सताम्॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> भगवान श्रीकृष्ण की कथा सुनने और कीर्तन करने से वे हृदय में स्थित होकर अशुद्धियों को दूर करते हैं।</p>
+            <p class="shloka-note">श्रीमद्भागवत 1.2.17 — हरिकथा का प्रभाव।</p>
+            <button type="button" class="audio-button speak-one" data-index="10">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-12">
+            <div class="shloka-number">श्लोक 12</div>
+            <p class="shloka-text">तत्तेऽनुकम्पां सु समीक्षमाणो भुञ्जान एवात्मकृतं विपाकम्। हृद्वाग्वपुर्भिर्विदधन्नमस्ते जीवेत यो मुक्तिपदे स दायभाक्॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> जो भक्त अपने कर्मों के फल को सहते हुए भी आपकी कृपा मानकर मन, वाणी और शरीर से आपको प्रणाम करता है, वह मुक्ति का अधिकारी बनता है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.14.8 — ब्रह्माजी की प्रार्थना।</p>
+            <button type="button" class="audio-button speak-one" data-index="11">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-13">
+            <div class="shloka-number">श्लोक 13</div>
+            <p class="shloka-text">समाश्रिता ये पदपल्लवप्लवं महत्पदं पुण्ययशो मुरारेः। भवाम्बुधिर्वत्सपदं परं पदं पदं पदं यद्विपदां न तेषाम्॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> जो भगवान मुरारी के चरण-कमलों की शरण लेते हैं, उनके लिए संसार-सागर बछड़े के खुर के निशान जितना छोटा हो जाता है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.14.58 — भगवान के चरणों की शरण।</p>
+            <button type="button" class="audio-button speak-one" data-index="12">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-14">
+            <div class="shloka-number">श्लोक 14</div>
+            <p class="shloka-text">बर्हापीडं नटवरवपुः कर्णयोः कर्णिकारं बिभ्रद्वासः कनककपिशं वैजयन्तीं च मालाम्। रन्ध्रान् वेणोरधरसुधया पूरयन् गोपवृन्दैर्वृन्दारण्यं स्वपदरमणं प्राविशद्गीतकीर्तिः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> श्रीकृष्ण मोरपंख का मुकुट, कानों में कर्णिकार पुष्प, पीतवर्ण वस्त्र और वैजयंती माला धारण कर मनोहर नटवर रूप में विराजते हैं।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.21.5 का प्रथम चरण — वेणुगीत।</p>
+            <button type="button" class="audio-button speak-one" data-index="13">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-15">
+            <div class="shloka-number">श्लोक 15</div>
+            <p class="shloka-text">तव कथामृतं तप्तजीवनं कविभिरीडितं कल्मषापहम्। श्रवणमङ्गलं श्रीमदाततं भुवि गृणन्ति ये भूरिदा जनाः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> आपकी कथा अमृत के समान है, दुखी जीवों को जीवन देती है, पापों को मिटाती है और सुनने वालों का मंगल करती है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.31.9 — गोपीगीत।</p>
+            <button type="button" class="audio-button speak-one" data-index="14">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-16">
+            <div class="shloka-number">श्लोक 16</div>
+            <p class="shloka-text">न पारयेऽहं निरवद्यसंयुजां स्वसाधुकृत्यं विबुधायुषापि वः। या मामभजन् दुर्जरगेहशृङ्खलाः संवृश्च्य तद्वः प्रतियातु साधुना॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> भगवान श्रीकृष्ण कहते हैं कि गोपियों के निष्कपट प्रेम और सेवा का प्रतिदान वे देवताओं की आयु पाकर भी नहीं चुका सकते।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.32.22 — गोपियों के प्रेम की महिमा।</p>
+            <button type="button" class="audio-button speak-one" data-index="15">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-17">
+            <div class="shloka-number">श्लोक 17</div>
+            <p class="shloka-text">विक्रीडितं व्रजवधूभिरिदं च विष्णोः श्रद्धान्वितोऽनुशृणुयादथ वर्णयेद्यः। भक्तिं परां भगवति प्रतिलभ्य कामं हृद्रोगमाश्वपहिनोत्यचिरेण धीरः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> जो श्रद्धा से भगवान की व्रज-लीलाओं का श्रवण और वर्णन करता है, उसके हृदय का कामरूपी रोग दूर होता है और परम भक्ति प्राप्त होती है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.33.39 — रासलीला-श्रवण का फल।</p>
+            <button type="button" class="audio-button speak-one" data-index="16">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-18">
+            <div class="shloka-number">श्लोक 18</div>
+            <p class="shloka-text">भक्त्याहमेकया ग्राह्यः श्रद्धयात्मा प्रियः सताम्। भक्तिः पुनाति मन्निष्ठा श्वपाकानपि सम्भवात्॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> भगवान कहते हैं कि वे अनन्य भक्ति और श्रद्धा से ही प्राप्त होते हैं; उनकी भक्ति सबको पवित्र कर सकती है।</p>
+            <p class="shloka-note">श्रीमद्भागवत 11.14.21 — भक्ति की महिमा।</p>
+            <button type="button" class="audio-button speak-one" data-index="17">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-19">
+            <div class="shloka-number">श्लोक 19</div>
+            <p class="shloka-text">अहो बकी यं स्तनकालकूटं जिघांसयापाययदप्यसाध्वी। लेभे गतिं धात्र्युचितां ततोऽन्यं कं वा दयालुं शरणं व्रजेम॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> पूतना ने विष पिलाकर मारना चाहा, फिर भी भगवान ने उसे माता जैसी गति दी। भगवान से बढ़कर दयालु कौन है?</p>
+            <p class="shloka-note">श्रीमद्भागवत 3.2.23 — भगवान की असीम करुणा।</p>
+            <button type="button" class="audio-button speak-one" data-index="18">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-20">
+            <div class="shloka-number">श्लोक 20</div>
+            <p class="shloka-text">आसामहो चरणरेणुजुषामहं स्यां वृन्दावने किमपि गुल्मलतौषधीनाम्।</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> उद्धवजी की अभिलाषा है कि वे वृंदावन की लताओं और औषधियों में से कुछ बन जाएँ, ताकि गोपियों के चरणों की धूल प्राप्त हो सके।</p>
+            <p class="shloka-note">श्रीमद्भागवत 10.47.61 का प्रथम चरण — व्रजभक्ति की महिमा।</p>
+            <button type="button" class="audio-button speak-one" data-index="19">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-21">
+            <div class="shloka-number">श्लोक 21</div>
+            <p class="shloka-text">नमसङ्कीर्तनं यस्य सर्वपापप्रणाशनम्। प्रणामो दुःखशमनस्तं नमामि हरिं परम्॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> जिनके नाम-संकीर्तन से पापों का नाश और प्रणाम से दुखों का शमन होता है, उन परम हरि को मैं नमस्कार करता हूँ।</p>
+            <p class="shloka-note">श्रीमद्भागवत 12.13.23 — हरिनाम की महिमा।</p>
+            <button type="button" class="audio-button speak-one" data-index="20">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-22">
+            <div class="shloka-number">श्लोक 22</div>
+            <p class="shloka-text">मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु। मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> अपने मन को मुझमें लगाओ, मेरे भक्त बनो, मेरी पूजा करो और मुझे प्रणाम करो। तुम निश्चित ही मुझे प्राप्त करोगे।</p>
+            <p class="shloka-note">श्रीमद्भगवद्गीता 18.65 — श्रीकृष्ण का आश्वासन।</p>
+            <button type="button" class="audio-button speak-one" data-index="21">▶ श्लोक सुनें</button>
+        </article>
+
+        <article class="shloka-card " id="shloka-23">
+            <div class="shloka-number">श्लोक 23</div>
+            <p class="shloka-text">सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥</p>
+            <p class="shloka-meaning"><strong>भावार्थ:</strong> सब प्रकार के आश्रयों को छोड़कर मेरी शरण में आओ। मैं तुम्हें मुक्त करूँगा, चिंता मत करो।</p>
+            <p class="shloka-note">श्रीमद्भगवद्गीता 18.66 — पूर्ण शरणागति।</p>
+            <button type="button" class="audio-button speak-one" data-index="22">▶ श्लोक सुनें</button>
+        </article>
+      </div>
+    </section>
+    <section id="location" class="map-section">
+      <div class="section-heading">
+        <span>✧ वृन्दावन पधारें ✧</span>
+        <h2>श्री राधा गोविंद कुटी — लोकेशन</h2>
+        <p>परिक्रमा मार्ग, पानीगाँव लिंक, वृंदावन, मथुरा, उत्तर प्रदेश</p>
+        <div class="heading-line"></div>
+      </div>
+      <a href="https://maps.app.goo.gl/vnLZiDhCDY3yuNPE6" target="_blank" rel="noopener noreferrer" class="map-button">Google Maps पर स्थान देखें ↗</a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-flower">❀</div><p>॥ राधे राधे ॥</p><small>श्री राधा गोविंद कुटी · वृन्दावन धाम</small></footer>
+  <script>
+    const shlokas = [{"text": "वन्दे श्रीगुरुदेवं च राधाकृष्णौ कृपामयौ। यत्कृपया प्रसादेन भक्तिमार्गः प्रकाशते॥", "meaning": "मैं श्रीगुरुदेव और कृपा करने वाले श्री राधा-कृष्ण को प्रणाम करता हूँ। उनकी कृपा से भक्ति का मार्ग प्रकाशित होता है।"}, {"text": "गुरुर्ब्रह्मा गुरुर्विष्णुः गुरुर्देवो महेश्वरः। गुरुर्साक्षात् परब्रह्म तस्मै श्रीगुरवे नमः॥", "meaning": "गुरु ब्रह्मा, विष्णु और महेश्वर के समान पूजनीय हैं। वे परम सत्य का ज्ञान कराने वाले हैं; ऐसे श्रीगुरु को प्रणाम है।"}, {"text": "अखण्डमण्डलाकारं व्याप्तं येन चराचरम्। तत्पदं दर्शितं येन तस्मै श्रीगुरवे नमः॥", "meaning": "जिन गुरु ने इस चर-अचर संसार में व्याप्त परम तत्व का परिचय कराया, उन श्रीगुरु को प्रणाम है।"}, {"text": "त्वमेव माता च पिता त्वमेव त्वमेव बन्धुश्च सखा त्वमेव। त्वमेव विद्या द्रविणं त्वमेव त्वमेव सर्वं मम देवदेव॥", "meaning": "हे प्रभु! आप ही मेरी माता, पिता, मित्र, संबंधी, विद्या और धन हैं। मेरे लिए आप ही सब कुछ हैं।"}, {"text": "कृष्णाय वासुदेवाय हरये परमात्मने। प्रणतः क्लेशनाशाय गोविन्दाय नमो नमः॥", "meaning": "वासुदेव-पुत्र, परमात्मा और गोविंद श्रीकृष्ण को बार-बार प्रणाम है, जो भक्तों के कष्ट दूर करते हैं।"}, {"text": "हे कृष्ण करुणासिन्धो दीनबन्धो जगत्पते। गोपेश गोपिकाकान्त राधाकान्त नमोऽस्तुते॥", "meaning": "हे करुणा के सागर, दीनों के बंधु, जगत के स्वामी, गोपियों के प्रिय और राधाकांत श्रीकृष्ण! आपको प्रणाम है।"}, {"text": "नमो राधायै कृष्णाय नमो वृन्दावनाय च। नमो यमुनतीराय नमो गोवर्धनाय च॥", "meaning": "श्रीराधा, श्रीकृष्ण, वृंदावन, यमुना तट और श्रीगोवर्धन को प्रणाम है।"}, {"text": "नन्दगोपकुमाराय गोविन्दाय नमो नमः। व्रजजनप्रियाय श्रीकृष्णाय नमो नमः॥", "meaning": "नंदगोप के प्रिय पुत्र, गोविंद और व्रजवासियों के प्रिय श्रीकृष्ण को बार-बार प्रणाम है।"}, {"text": "जयति तेऽधिकं जन्मना व्रजः श्रयत इन्दिरा शश्वदत्र हि। दयित दृश्यतां दिक्षु तावकास्त्वयि धृतासवस्त्वां विचिन्वते॥", "meaning": "हे प्रियतम! आपके प्रकट होने से व्रज की महिमा बढ़ गई है। आपके दर्शन की आशा में भक्त दिशाओं में आपको खोज रहे हैं।"}, {"text": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे। अहैतुक्यप्रतिहता ययात्मा सुप्रसीदति॥", "meaning": "मनुष्य का सर्वोत्तम धर्म वह है जिससे भगवान के प्रति निष्काम और निरंतर भक्ति उत्पन्न हो; ऐसी भक्ति से आत्मा पूर्ण प्रसन्न होती है।"}, {"text": "शृण्वतां स्वकथाः कृष्णः पुण्यश्रवणकीर्तनः। हृद्यन्तःस्थो ह्यभद्राणि विधुनोति सुहृत्सताम्॥", "meaning": "भगवान श्रीकृष्ण की कथा सुनने और कीर्तन करने से वे हृदय में स्थित होकर अशुद्धियों को दूर करते हैं।"}, {"text": "तत्तेऽनुकम्पां सु समीक्षमाणो भुञ्जान एवात्मकृतं विपाकम्। हृद्वाग्वपुर्भिर्विदधन्नमस्ते जीवेत यो मुक्तिपदे स दायभाक्॥", "meaning": "जो भक्त अपने कर्मों के फल को सहते हुए भी आपकी कृपा मानकर मन, वाणी और शरीर से आपको प्रणाम करता है, वह मुक्ति का अधिकारी बनता है।"}, {"text": "समाश्रिता ये पदपल्लवप्लवं महत्पदं पुण्ययशो मुरारेः। भवाम्बुधिर्वत्सपदं परं पदं पदं पदं यद्विपदां न तेषाम्॥", "meaning": "जो भगवान मुरारी के चरण-कमलों की शरण लेते हैं, उनके लिए संसार-सागर बछड़े के खुर के निशान जितना छोटा हो जाता है।"}, {"text": "बर्हापीडं नटवरवपुः कर्णयोः कर्णिकारं बिभ्रद्वासः कनककपिशं वैजयन्तीं च मालाम्। रन्ध्रान् वेणोरधरसुधया पूरयन् गोपवृन्दैर्वृन्दारण्यं स्वपदरमणं प्राविशद्गीतकीर्तिः॥", "meaning": "श्रीकृष्ण मोरपंख का मुकुट, कानों में कर्णिकार पुष्प, पीतवर्ण वस्त्र और वैजयंती माला धारण कर मनोहर नटवर रूप में विराजते हैं।"}, {"text": "तव कथामृतं तप्तजीवनं कविभिरीडितं कल्मषापहम्। श्रवणमङ्गलं श्रीमदाततं भुवि गृणन्ति ये भूरिदा जनाः॥", "meaning": "आपकी कथा अमृत के समान है, दुखी जीवों को जीवन देती है, पापों को मिटाती है और सुनने वालों का मंगल करती है।"}, {"text": "न पारयेऽहं निरवद्यसंयुजां स्वसाधुकृत्यं विबुधायुषापि वः। या मामभजन् दुर्जरगेहशृङ्खलाः संवृश्च्य तद्वः प्रतियातु साधुना॥", "meaning": "भगवान श्रीकृष्ण कहते हैं कि गोपियों के निष्कपट प्रेम और सेवा का प्रतिदान वे देवताओं की आयु पाकर भी नहीं चुका सकते।"}, {"text": "विक्रीडितं व्रजवधूभिरिदं च विष्णोः श्रद्धान्वितोऽनुशृणुयादथ वर्णयेद्यः। भक्तिं परां भगवति प्रतिलभ्य कामं हृद्रोगमाश्वपहिनोत्यचिरेण धीरः॥", "meaning": "जो श्रद्धा से भगवान की व्रज-लीलाओं का श्रवण और वर्णन करता है, उसके हृदय का कामरूपी रोग दूर होता है और परम भक्ति प्राप्त होती है।"}, {"text": "भक्त्याहमेकया ग्राह्यः श्रद्धयात्मा प्रियः सताम्। भक्तिः पुनाति मन्निष्ठा श्वपाकानपि सम्भवात्॥", "meaning": "भगवान कहते हैं कि वे अनन्य भक्ति और श्रद्धा से ही प्राप्त होते हैं; उनकी भक्ति सबको पवित्र कर सकती है।"}, {"text": "अहो बकी यं स्तनकालकूटं जिघांसयापाययदप्यसाध्वी। लेभे गतिं धात्र्युचितां ततोऽन्यं कं वा दयालुं शरणं व्रजेम॥", "meaning": "पूतना ने विष पिलाकर मारना चाहा, फिर भी भगवान ने उसे माता जैसी गति दी। भगवान से बढ़कर दयालु कौन है?"}, {"text": "आसामहो चरणरेणुजुषामहं स्यां वृन्दावने किमपि गुल्मलतौषधीनाम्।", "meaning": "उद्धवजी की अभिलाषा है कि वे वृंदावन की लताओं और औषधियों में से कुछ बन जाएँ, ताकि गोपियों के चरणों की धूल प्राप्त हो सके।"}, {"text": "नमसङ्कीर्तनं यस्य सर्वपापप्रणाशनम्। प्रणामो दुःखशमनस्तं नमामि हरिं परम्॥", "meaning": "जिनके नाम-संकीर्तन से पापों का नाश और प्रणाम से दुखों का शमन होता है, उन परम हरि को मैं नमस्कार करता हूँ।"}, {"text": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु। मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे॥", "meaning": "अपने मन को मुझमें लगाओ, मेरे भक्त बनो, मेरी पूजा करो और मुझे प्रणाम करो। तुम निश्चित ही मुझे प्राप्त करोगे।"}, {"text": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज। अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः॥", "meaning": "सब प्रकार के आश्रयों को छोड़कर मेरी शरण में आओ। मैं तुम्हें मुक्त करूँगा, चिंता मत करो।"}];
+    // मोबाइल ब्राउज़र के लिए सुरक्षित श्लोक-वाचन
+    let currentUtterance = null;
+    let activeButton = null;
+    const audioNote = document.querySelector(".audio-note");
+
+    function showAudioStatus(message) {
+      if (audioNote) audioNote.textContent = message;
+    }
+
+    function stopReading() {
+      if ("speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
+      currentUtterance = null;
+      if (activeButton) {
+        activeButton.textContent = activeButton.dataset.originalLabel || "▶ श्लोक सुनें";
+        activeButton = null;
+      }
+    }
+
+    function speakText(text, button) {
+      if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
+        showAudioStatus("इस ब्राउज़र में हिंदी आवाज़ उपलब्ध नहीं है। Chrome में खोलें और Google Speech Services की हिंदी आवाज़ चालू करें।");
+        return;
+      }
+
+      stopReading();
+      const synth = window.speechSynthesis;
+      const utterance = new SpeechSynthesisUtterance(text);
+      currentUtterance = utterance;
+      activeButton = button || null;
+
+      // उपलब्ध हिंदी वॉइस को चुनें; न मिले तो ब्राउज़र की डिफ़ॉल्ट वॉइस इस्तेमाल होगी।
+      const chooseVoice = () => {
+        const voices = synth.getVoices();
+        const hindiVoice = voices.find(v => /^hi(-|_)/i.test(v.lang)) ||
+                           voices.find(v => /hindi/i.test(v.name));
+        if (hindiVoice) utterance.voice = hindiVoice;
+      };
+      chooseVoice();
+
+      utterance.lang = "hi-IN";
+      utterance.rate = 0.78;
+      utterance.pitch = 1.02;
+      utterance.volume = 1;
+
+      utterance.onstart = () => {
+        showAudioStatus("🔊 श्लोक का पाठ चल रहा है… रोकने के लिए ‘ऑडियो रोकें’ दबाएँ।");
+        if (button) {
+          button.dataset.originalLabel = button.dataset.originalLabel || button.textContent;
+          button.textContent = "♫ सुन रहे हैं…";
+        }
+      };
+      utterance.onend = () => {
+        if (currentUtterance === utterance) {
+          currentUtterance = null;
+          if (activeButton === button && button) button.textContent = button.dataset.originalLabel || "▶ श्लोक सुनें";
+          activeButton = null;
+          showAudioStatus("पाठ पूरा हुआ। सुनने के लिए किसी भी ‘श्लोक सुनें’ बटन को दबाएँ।");
+        }
+      };
+      utterance.onerror = (event) => {
+        if (currentUtterance === utterance) {
+          currentUtterance = null;
+          if (button) button.textContent = button.dataset.originalLabel || "▶ श्लोक सुनें";
+          activeButton = null;
+          showAudioStatus("आवाज़ शुरू नहीं हो पाई (" + (event.error || "speech error") + ")। मोबाइल में आवाज़/मीडिया वॉल्यूम बढ़ाएँ और Google Speech Services में हिंदी भाषा डाउनलोड करें।");
+        }
+      };
+
+      // Android पर कभी-कभी speechSynthesis cancel के तुरंत बाद बोलना शुरू नहीं करता।
+      const begin = () => {
+        try {
+          synth.resume();
+          synth.speak(utterance);
+        } catch (error) {
+          showAudioStatus("ऑडियो शुरू नहीं हुआ। कृपया पेज Chrome में खोलकर फिर टैप करें।");
+        }
+      };
+      if (synth.getVoices().length) {
+        begin();
+      } else {
+        let started = false;
+        const onVoices = () => {
+          if (started) return;
+          started = true;
+          chooseVoice();
+          synth.removeEventListener("voiceschanged", onVoices);
+          begin();
+        };
+        synth.addEventListener("voiceschanged", onVoices);
+        // कुछ Android ब्राउज़र voiceschanged नहीं भेजते; तब भी डिफ़ॉल्ट आवाज़ से प्रयास करें।
+        setTimeout(onVoices, 700);
+      }
+    }
+
+    document.getElementById("startVandana").addEventListener("click", function () {
+      const item = shlokas[0];
+      speakText(item.text + "। भावार्थ: " + item.meaning, this);
+    });
+
+    document.getElementById("stopVandana").addEventListener("click", function () {
+      stopReading();
+      showAudioStatus("ऑडियो रोक दिया गया है।");
+    });
+
+    document.querySelectorAll(".speak-one").forEach(button => {
+      button.addEventListener("click", function () {
+        const item = shlokas[Number(this.dataset.index)];
+        if (item) speakText(item.text + "। भावार्थ: " + item.meaning, this);
+      });
+    });
+
+    window.addEventListener("pagehide", stopReading);
+  </script>
 </body>
 </html>
